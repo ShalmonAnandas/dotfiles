@@ -1,4 +1,4 @@
-sudo pacman -S unzip wget gcc make nano
+sudo pacman -S unzip wget gcc make nano linux-headers-`uname -r`
 cd /tmp/
 wget -O droidcam_latest.zip https://files.dev47apps.net/linux/droidcam_1.8.0.zip
 unzip droidcam_latest.zip -d droidcam
