@@ -5,6 +5,6 @@ unzip droidcam_latest.zip -d droidcam
 cd droidcam
 sudo ./install-client
 sudo ./install-video
-nano ~/.config/droidcam
 sudo rmmod v4l2loopback_dc
 sudo insmod /lib/modules/`uname -r`/kernel/drivers/media/video/v4l2loopback-dc.ko width=1440 height=1080
+nano ~/.config/droidcam
