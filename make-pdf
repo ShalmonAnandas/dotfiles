@@ -1,4 +1,4 @@
 
 read -p 'Pdf name: ' pdfName
 
-convert \*.png $pdfName.pdf
+convert \*.jpeg $pdfName.pdf
